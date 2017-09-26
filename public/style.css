@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+.table-fixed thead {
+  width: 100%;
+}
+.table-fixed tbody {
+/*  height: 450px; */
+  height: 70vh;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+#send_btn{
+        cursor:default;
+}
+
+#wrapper {
+    height: 100%;
+}
+#content {
+    min-height: 90%;
+}
+#padding-bottom {
+    height: 10%;
+}
+.clear_btn{
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
